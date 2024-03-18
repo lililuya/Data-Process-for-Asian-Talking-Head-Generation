@@ -3,7 +3,10 @@ from tkinter import filedialog, scrolledtext, messagebox
 import subprocess
 import os
 import threading
-
+"""
+download video from youtube, arrange the youtube videoes url as a playlist or can get playlist directly using the command as follow:
+    yt-dlp --flat-playlist --get-url https://www.youtube.com/playlist?list=YOUR_PLAYLIST_ID > video_links.txt
+"""
 class VideoDownloaderApp(tk.Tk):
     def __init__(self):
         super().__init__()
