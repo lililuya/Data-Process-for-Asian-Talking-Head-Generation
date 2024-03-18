@@ -126,3 +126,9 @@
   + Our high resolution dataset
   + Total 1000 mkv video.
   + Just raw without processed
+## 9. Our Main Work
+### 9.1 Collect video from youtube
+  + resolution：4K（3840*2160）
+  + mouth region must be reveal
+  + must exist a scene which last for 10s duration.(can be longer but not less)
+  + tools：yt-dlp
